@@ -25,7 +25,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #00CFC1;
+    background-color: #F2542D;
 }
 
 button {
@@ -40,10 +40,16 @@ button {
 }
 
 #product-1-image {
-    width: 40%;
+    width: 50%;
+    height: 50%;
 }
 
 #product-1-text {
     margin: 20px;
+    margin-top: 0;
     color: white;
+}
+
+h1 {
+    margin-top: 0;
 }
