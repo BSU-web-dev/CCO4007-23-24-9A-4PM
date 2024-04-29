@@ -1,31 +1,45 @@
 body {
-  
-
+    background-color: #623cea;
+    color: white;
+    font-size: large;
+    width: 60%;
+    justify-content: center;
+    margin: auto;
+    border: solid black;
 }
 
+a {
+    color: #00cfc1;
+  }
+
+main {
+    background-color: #00cfc1;
+}
 
 header {
-    background-color: #240115;
+    background-color: #001011;
     color: white;
 }
 
-#nav {
-    
+header img {
+    width: 250px;
 }
 
 #landingimage {
     display: flex;
+    margin: auto;
+    width: 100%;
 }
 
-.icon {
-    width: 20%;
+img {
+    width: 100%;
 }
 
 .image-box {
     display: flex;
-    
 }
 
 #products-row {
     display: flex;
+    border: solid black;
 }
