@@ -2,7 +2,7 @@
 body{
     padding: 0;
     margin: 0;
-    background-color: #240115;
+    background-color: #001011;
 }
 
 .logo{
@@ -14,7 +14,7 @@ header{
     justify-content: space-between;
     align-items: center;
     border: 2px solid;
-    background-color: #F2542D;
+    background-color: #FFFCFF;
     padding: 0px;
 }
 
@@ -46,7 +46,7 @@ p{
     flex-flow: column;
     width: 50%;
     margin: auto;
-    background-color: #D6D84F;
+    background-color: #623CEA;
 }
 
 .image-flex{
@@ -67,5 +67,21 @@ p{
 .banner-image{
     height: 150px;
     margin-bottom: 50px;
+    object-fit: cover;
+}
+.whole-page {
+    display: flex;
+    flex-flow: row;
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+}
+.left-images {
+    display: flex;
+    flex-flow: column;
+    width: 50%;
+}
+.left-image {
+    height: 33.333%;
     object-fit: cover;
 }
