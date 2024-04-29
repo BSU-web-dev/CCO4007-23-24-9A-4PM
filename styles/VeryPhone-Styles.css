@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #240115;
+}
+
+#logo {
+    width: 30%;
+}
+
+main {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    display: flex;
+    text-align: right;
+    margin-left: auto;
+}
+
+header {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00CFC1;
+}
+
+button {
+    border: none;
+    background: none;
+    color: black;
+}
+
+#product-1 {
+    margin: 20px;
+    display: flex;
+}
+
+#product-1-image {
+    width: 40%;
+}
+
+#product-1-text {
+    margin: 20px;
+    color: white;
+}
