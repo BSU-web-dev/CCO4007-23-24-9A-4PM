@@ -2,7 +2,7 @@
 body{
     padding: 0;
     margin: 0;
-    background-color: #240115;
+    background-color: #001011;
 }
 
 .logo{
@@ -14,7 +14,7 @@ header{
     justify-content: space-between;
     align-items: center;
     border: 2px solid;
-    background-color: #F2542D;
+    background-color: #FFFCFF;
     padding: 0px;
 }
 
@@ -26,8 +26,62 @@ header{
 
 .first-flex{
     display: flex;
+    width: 75%;
+    margin: auto;
+    margin-top: 5%;
+    background-color: #00CFC1;
+}
+
+h2{
+    text-align: center;
+    font-size: xx-large;
+}
+
+p{
+    margin: 10px;
+}
+
+.center-flex{
+    display: flex;
+    flex-flow: column;
+    width: 50%;
+    margin: auto;
+    background-color: #623CEA;
+}
+
+.image-flex{
+    display: flex;
+    flex-flow: row;
+    height: 150px;
+}
+
+.image{
+    width: 33.333%;
+    object-fit: cover;
 }
 
 .main-image{
     width: 50%;
+}
+
+.banner-image{
+    height: 150px;
+    margin-bottom: 50px;
+    object-fit: cover;
+}
+.whole-page {
+    display: flex;
+    flex-flow: row;
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+}
+.left-images {
+    display: flex;
+    flex-flow: column;
+    width: 50%;
+}
+.left-image {
+    height: 33.333%;
+    object-fit: cover;
 }
